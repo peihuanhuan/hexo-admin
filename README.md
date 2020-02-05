@@ -1,6 +1,6 @@
 ### hexo博客管理后台
 
-项目基于https://github.com/PanJiaChen/vue-admin-template，能非常方便地管理hexo文章。
+项目基于https://github.com/PanJiaChen/vue-admin-template ，能非常方便地管理hexo文章。
 
 
 
