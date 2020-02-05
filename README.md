@@ -38,7 +38,7 @@ cd newblog
 
 **初始化mysql：执行src/main/resources/static/init.sql，sql中添加了一个admin用户，密码为123456，需自行修改**
 
-最后使用`gradle :bootJar`命令生成jar包后将build/libs中的jar包复制到自己的服务器中，执行
+最后使用` ./gradlew build `命令生成jar包后将build/libs中的jar包复制到自己的服务器中，执行
 
 ```
 nohup java -Dspring.profiles.active=example -server -Xmx1024m -Xms128m -jar newblog-0.0.1.jar &
