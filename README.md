@@ -44,6 +44,8 @@ cd newblog
 nohup java -Dspring.profiles.active=example -server -Xmx1024m -Xms128m -jar newblog-0.0.1.jar &
 ```
 
+##### hexo
+需要进入博客的更目录执行`hexo generate --watch`命令，使hexo能够监听文件的变化并自动渲染文件到public文件夹
 
 
 ##### 部署fe
@@ -67,6 +69,25 @@ npm install --registry=https://registry.npm.taobao.org
 # 打包
 npm run build:prod
 ```
+##### nginx 配置
 
+```nginx
+server
+{
+    # 博客主站，指向 hexo 的 public 文件夹
+    server_name your_server_name;
+    index index.html;
+    root  /www/my-hexo/public;
+    access_log  /www/wwwlogs/access.log;
+}
+
+server
+{
+    server_name your_server_name;
+    index index.html;
+    root /root/myblog-admin/dist/;
+    access_log  /www/wwwlogs/access.log;
+}
+```
 
 
