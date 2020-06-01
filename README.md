@@ -44,8 +44,8 @@ cd newblog
 nohup java -Dspring.profiles.active=example -server -Xmx1024m -Xms128m -jar newblog-0.0.1.jar &
 ```
 
-##### hexo
-需要进入博客的更目录执行`hexo generate --watch`命令，使hexo能够监听文件的变化并自动渲染文件到public文件夹
+##### hexo配置
+需要进入博客hexo的根目录执行`hexo generate --watch`命令，使hexo能够监听文件的变化并自动渲染文件到public文件夹
 
 
 ##### 部署fe
