@@ -45,7 +45,7 @@ nohup java -Dspring.profiles.active=example -server -Xmx1024m -Xms128m -jar newb
 ```
 
 ##### hexo配置
-需要进入博客hexo的根目录执行`hexo generate --watch`命令，使hexo能够监听文件的变化并自动渲染文件到public文件夹
+需要进入博客hexo的根目录执行`nohup hexo generate --watch &`命令，使hexo能够监听文件的变化并自动渲染文件到public文件夹
 
 
 ##### 部署fe
