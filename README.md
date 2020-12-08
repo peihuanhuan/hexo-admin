@@ -26,6 +26,7 @@
 
 ##### 部署server
 
+项目地址：https://github.com/peihuanhuan/hexo-admin-server
 ```
 # 克隆项目
 git clone git@github.com:peihuanhuan/hexo-admin-server.git
@@ -49,7 +50,7 @@ nohup java -Dspring.profiles.active=example -server -Xmx1024m -Xms128m -jar newb
 
 
 ##### 部署fe
-
+项目地址：https://github.com/peihuanhuan/hexo-admin-fe
 ```
 # 克隆项目
 git clone git@github.com:peihuanhuan/hexo-admin-fe.git
@@ -90,4 +91,6 @@ server
 }
 ```
 
+### 更新记录
+- 2020-10-8： 新增自定义首页，需在数据库中插入一条id为1的文章，作为首页内容，详见server代码。另外还需要配置hexo。
 
