@@ -1,15 +1,16 @@
-## hexo博客管理后台
+## hexo博客管理系统
+![](https://img.shields.io/badge/by-hexo-green)     ![](https://img.shields.io/badge/by-Vue-orange)     ![](https://img.shields.io/badge/by-Spring-brightgreen)
 
-项目基于https://github.com/PanJiaChen/vue-admin-template ，能非常方便地管理hexo文章。
-
-
+**一款可以快速方便管理hexo博客文章、图床的工具。**
 
 **特性**
+- 使用了阿里云的对象存储作为图床，以文章标题进行分类；
+- markdown语法，粘贴图片即可上传至自定义图床，方便快捷；
+- 博客主站配置了阿里云的cdn，发布文章时自动刷新（可选）；
+- 方便地管理文章，发布、取消发布、保存草稿；编辑文章时自动保存；
 
-- 使用了阿里云的对象存储作为图床，以文章标题进行分类
-- markdown文本编辑器，复制粘贴上传图片至图床
-- 主站配置了阿里云的cdn可自动刷新（可选）
-- 方便地管理文章，发布、取消发布、保存草稿；编辑文章时自动保存
+![image](https://user-images.githubusercontent.com/27762147/112250648-b7b3e280-8c94-11eb-8c1a-58bc30ac8ef2.png)
+![image](https://user-images.githubusercontent.com/27762147/112250840-1aa57980-8c95-11eb-95d4-9b5f1b447cd0.png)
 
 **原理**
 
