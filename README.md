@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/by-hexo-green)     ![](https://img.shields.io/badge/by-Vue-orange)     ![](https://img.shields.io/badge/by-Spring-brightgreen)
 
 **这是一款可以快速方便管理hexo博客文章、图床的工具。**
-> 欢迎来我的博客逛逛 [https://www.peihuan.net/](https://www.peihuan.net/)
+
 
 **特性**
 - 使用了阿里云的对象存储作为图床，以文章标题进行分类；
